@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hearthstone Cards</title>
+</head>
+<body>
+    <h1>Hearthstone Cards</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Rarity</th>
+                <th>Set</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for card in cards %}
+            <tr>
+                <td><img src="{{ card.cropImage }}" alt="{{ card.name }}"></td>
+                <td>{{ card.name }}</td>
+                <td>{{ card.cardTypeId }}</td>
+                <td>{{ card.rarityId }}</td>
+                <td>{{ card.cardSetId }}</td>
+                <td>{{ card.classId }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
