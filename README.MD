@@ -23,6 +23,11 @@ Activate the virtual environment:
 ```
 source blizzard/bin/activate
 ```
+
+# Install dependencies 
+```
+pip3 install -r requirements.txt
+```
 # Environment Variables
 You need to set the following environment variables. Make sure to replace "your_client_id" and "your_client_secret" with your actual Client ID and Client Secret.
 
