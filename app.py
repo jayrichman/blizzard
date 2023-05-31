@@ -1,7 +1,3 @@
-# client_id="c88ef2cefd2f4356865fbc59040812f3"
-# #Client Secret
-# client_secret="qwpNcbhCOyrmOq9ofFEezjGIl2mqonHZ"
-
 import os
 import requests
 from flask import Flask, render_template
