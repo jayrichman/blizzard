@@ -1,16 +1,16 @@
-#Blizzard Hearthstone Card Data Application
+# Blizzard Hearthstone Card Data Application
 This is a simple Flask web application that retrieves and displays Hearthstone card data from the Blizzard API.
 
-#Getting Started
+# Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-#Prerequisites
+# Prerequisites
 You'll need Python 3 installed on your machine. You can check your Python version using the following command:
 
 ```
 python3 --version
 ```
-#Setup
+# Setup
 First, clone the repository to your local machine.
 
 Next, navigate to the project directory and create a virtual environment with the following command:
@@ -23,7 +23,7 @@ Activate the virtual environment:
 ```
 source blizzard/bin/activate
 ```
-#Environment Variables
+# Environment Variables
 You need to set the following environment variables. Make sure to replace "your_client_id" and "your_client_secret" with your actual Client ID and Client Secret.
 
 ```
